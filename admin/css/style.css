@@ -1,0 +1,88 @@
+:root{
+     --bg-color: rgb(192, 214, 243);
+     --font-family: arial;
+     --padding: 10px;
+}
+
+* {
+    font-family: var(--font-family)
+}
+
+body {
+    background-color: var(--bg-color)
+}
+
+header {
+    text-align: end;
+    max-width: 750px;
+    margin: 20px auto 30px auto;
+    padding-bottom: 10px;
+    border-bottom: 2px solid grey;
+}
+
+header a {
+    margin-top: 40px;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: blue;
+}
+
+.container {
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin-left: 10px;
+}
+
+#create-new-post-btn {
+    display: block;
+    text-align: end;
+    margin-bottom: 15px;
+    margin-right: 10px;
+}
+
+#create-new-post-btn input {
+    padding: 10px;
+    border-radius: 10px;
+    border-style: solid;
+    background-color: rgb(214, 214, 224);
+}
+
+#create-new-post-btn input:hover {
+    background-color: rgb(235, 235, 247);
+}
+
+.manage-post {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    background-color: white;
+}
+
+thead {
+    font-weight: bold;
+    font-size: 16px;
+    background-color: rgb(214, 214, 224);
+}
+
+td {
+    border: 2px solid grey;
+    padding: 15px 20px;
+    max-width: 212px;
+    overflow: hidden;
+}

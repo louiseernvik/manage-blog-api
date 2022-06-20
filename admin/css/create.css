@@ -1,0 +1,64 @@
+*,html{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+    --bg-color: rgb(192, 214, 243);
+    --font-family: arial;
+    --padding: 10px;
+}
+
+body{
+    background-color: var(--bg-color);
+    font-family: var(--font-family);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header {
+    text-align: end;
+    max-width: 750px;
+    margin: 20px auto 30px auto;
+    padding-bottom: 10px;
+    border-bottom: 1px solid grey;
+}
+
+header a {
+    margin-left: 370px;
+}
+
+a {
+    text-decoration: none;
+}
+a:visited {
+    color: blue;
+}
+.container{
+    max-width: 500px;
+}
+h1{
+    margin-bottom: 40px;
+}
+input, textarea, select{
+    width: 100%;
+    height: var(--field-height);
+    margin-bottom: 15px;
+    padding: var(--padding);
+    margin-top: 4px;
+}
+textarea{
+    height: 160px;
+}
+select{
+    height: 160px;
+    overflow: hidden;
+}
+option{
+    margin-bottom: 5px;
+}
+a{
+    display: flex;
+    justify-content: center;
+}

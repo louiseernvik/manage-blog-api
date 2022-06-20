@@ -1,0 +1,49 @@
+:root{
+    --bg-color: rgb(192, 214, 243);
+    --font-family: arial;
+    --padding: 10px;
+}
+
+body {
+    background-color: var(--bg-color);
+    font-family: var(--font-family);
+
+    margin: auto;
+    width: 500px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#nav {
+    text-align: end;
+    margin: 20px auto 30px auto;
+    padding-bottom: 10px;
+    border-bottom: 2px solid grey;
+}
+
+h1 {
+    padding-bottom: 25px;
+}
+
+.list-group-item {
+    list-style: none;
+
+    padding-bottom: 25px;
+    border-bottom: 1px solid gray;
+}
+
+#post-header{
+    text-align: end;
+    max-width: 750px;
+    margin: 20px auto 30px auto;
+    padding-bottom: 5px;
+    border-bottom: 2px solid grey;
+}
+
+#back-link{
+    margin-top: 50px;
+    display: block;
+    text-align: end;
+}

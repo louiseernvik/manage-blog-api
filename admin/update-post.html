@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update post</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/update.css">
+</head>
+<body>
+    <div id="container">
+        <div id="blog-link-container">
+            <a href="../index.html" id="blog-page-link">Blog page</a>
+        </div>
+        <hr>
+
+        <h1>Update post</h1>
+
+        <form id="update-post-form">
+            <label for="title">Title</label>
+            <input type="text" name="title" id="title">
+
+            <label for="author">Author</label>
+            <input type="text" name="author" id="author">
+
+            <label for="content">Content</label><br>
+            <textarea name="content" id="content" cols="" rows="10"></textarea>
+
+            <label for="tags">Tags</label>
+            <select form="update-post-form" name="tags" id="tags" multiple="multiple">
+                <option value="economics">Economics</option>
+                <option value="politics">Politics</option>
+                <option value="sport">Sport</option>
+                <option value="food">Food</option>
+                <option value="art">Art</option>
+                <option value="cars">Cars</option>
+                <option value="travel">Travel</option>
+            </select>
+
+            <input type="submit" value="Update" id="submit">
+        </form>
+
+        <div id="back-link">
+            <a href="index.html">Back</a>
+        </div>
+    </div>
+    <script src="js/update-post.js"></script>
+</body>
+</html>

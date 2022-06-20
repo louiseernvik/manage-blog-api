@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+:root{
+    --bg-color: rgb(192, 214, 243);
+    --font-family: arial;
+    --padding: 10px;
+}
+
+body{
+    background-color: var(--bg-color);
+    font-family: var(--font-family);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    max-width: 500px;
+}
+
+#blog-link-container {
+    text-align: right;
+}
+
+#back-link {
+    text-align: center;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: var(--padding);
+    margin-top: 5px;
+}
+
+#tags {
+    width: 100%;
+    margin-top: 5px;
+    height: 120px;
+    overflow: hidden;
+}
+
+label {
+    margin-top: 20px;
+    display: inline-block;
+}
+
+#submit {
+    margin-top: 20px;
+}

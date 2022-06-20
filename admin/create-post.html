@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Post</title>
+    <link rel="stylesheet" href="css/create.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a href="../index.html">Back to startpage</a>
+        </header>
+        
+        <h1>New post</h1>
+
+        <form id="create-post-form">
+            <label for="">Title</label>
+            <input name="title" id="title-input" type="text" required>
+
+            <label for="">Author</label>
+            <input name="author" id="author-input" type="text" required>
+
+            <label for="">Content</label>
+            <textarea name="content" id="content" cols="30" rows="10" required></textarea>
+
+            <label for="tags">Tags</label>
+            <select form="create-post-form" name="tags" id="tags" multiple="multiple" required>
+                <option value="economics">Economics</option>
+                <option value="politics">Politics</option>
+                <option value="sport">Sport</option>
+                <option value="food">Food</option>
+                <option value="art">Art</option>
+                <option value="cars">Cars</option>
+                <option value="travel">Travel</option>
+            </select>
+
+            <input type="submit" value="Create" id="create-btn">
+            <a href="index.html">Back</a>
+        </form>
+
+    </div>
+
+    <script src="js/create-post.js"></script>
+</body>
+</html>
